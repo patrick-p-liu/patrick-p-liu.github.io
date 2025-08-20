@@ -129,8 +129,9 @@ exclude:
   - _pages/projects.md
   - _pages/repositories.md
   - _pages/cv.md
-  - _pages/people.md
-  - _pages/submenus.md
+  - _pages/profiles.md
+  - _pages/bookshelf.md
+  - _pages/news.md
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
