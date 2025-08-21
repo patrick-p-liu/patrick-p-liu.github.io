@@ -131,6 +131,7 @@ exclude:
   - _pages/cv.md
   - _pages/profiles.md
   - _pages/books.md
+  - _pages/bookshelf.md
   - _pages/news.md
   - bin/
   - CONTRIBUTING.md
