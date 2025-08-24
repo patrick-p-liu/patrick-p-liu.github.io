@@ -134,6 +134,7 @@ exclude:
   - _pages/bookshelf.md
   - _pages/news.md
   - _pages/teaching.md
+  - _layouts/book-shelf.liquid
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
