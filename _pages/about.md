@@ -9,10 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    PhD Candidate
-    Department of Political Science
-    <a href='https://polisci.columbia.edu/'>Columbia University</a>
-    [//]: # <p> </p>
+    <p>PhD Candidate</p>
+    <p>Department of Political Science</p>
+    <p><a href='https://polisci.columbia.edu/'>Columbia University</a></p>
 
 selected_papers: # includes a list of papers marked as "selected={true}"
 social: # includes social icons at the bottom of the page
