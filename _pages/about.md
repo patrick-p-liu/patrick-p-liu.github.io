@@ -2,17 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://polisci.columbia.edu/'>Columbia University</a>
+subtitle: 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>PhD Candidate in Political Science</p>
+    PhD Candidate
+    Department of Political Science
+    <a href='https://polisci.columbia.edu/'>Columbia University</a>
+    [//]: # <p> </p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: # includes a list of papers marked as "selected={true}"
+social: # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
