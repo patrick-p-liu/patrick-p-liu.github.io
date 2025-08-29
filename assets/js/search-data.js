@@ -10,11 +10,11 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-research",
-          title: "Research",
+          title: "research",
           description: "published papers and ongoing work by categories in reversed chronological order.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/Research/";
+            window.location.href = "/research/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
