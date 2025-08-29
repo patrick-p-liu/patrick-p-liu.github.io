@@ -10,7 +10,7 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-research",
-          title: "research",
+          title: "Research",
           description: "published papers and ongoing work by categories in reversed chronological order.",
           section: "Navigation",
           handler: () => {
