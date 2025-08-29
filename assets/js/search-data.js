@@ -14,7 +14,7 @@ ninja.data = [{
           description: "published papers and ongoing work by categories in reversed chronological order.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/research/";
+            window.location.href = "/Research/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
