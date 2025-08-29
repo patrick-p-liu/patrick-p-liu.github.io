@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /Research/
-title: research
+title: Research
 description: published papers and ongoing work by categories in reversed chronological order. 
 nav: true
 nav_order: 2
