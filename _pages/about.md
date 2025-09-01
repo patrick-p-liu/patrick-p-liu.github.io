@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Home
-permalink: /
+permalink: 
 subtitle: 
 
 profile:
@@ -38,15 +38,14 @@ My work is featured in the _American Political Science Review_ and has been supp
 <div class="publications">
 
 ## Publications
-
+<div class="publications">
 {% bibliography --query @*[keywords=publication] %}
-
+</div>
 ## Working Papers (Drafts Available Upon Request)
-
+<div class="publications">
 {% bibliography --query @*[keywords=working] %}
-
+</div>
 ## Ongoing Projects
-
+<div class="publications">
 {% bibliography --query @*[keywords=ongoing] %}
-
 </div>
