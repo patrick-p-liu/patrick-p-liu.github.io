@@ -11,6 +11,13 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+## Publications
+{% bibliography --file papers --query @*[keywords=publication] %}
+
+## Working Papers
+{% bibliography --file papers --query @*[keywords=working] %}
+
+## Drafts in Progress
+{% bibliography --file papers --query @*[keywords=draft] %}
 
 </div>
