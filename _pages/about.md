@@ -32,3 +32,17 @@ Hi! I am a PhD Candidate in Political Science at Columbia University. My researc
 Much of my work uses tailored experimental designs to assess how canonical theories in political psychology—from motivated reasoning to models of attitudes as weighted sums of beliefs—hold up when we account for heterogeneity in the issues to which ordinary people assign importance or in the kinds of information they treat as relevant to their deeply held views. I also examine how social pressure constrains political conversation in underappreciated contexts such as intra-party dyads. 
 
 My work is featured in the _American Political Science Review_ and has been supported by the Civic Health and Institutions Project, Columbia's Office of the Provost, and the Columbia Experimental Laboratory for Social Sciences.
+
+<!-- _pages/publications.md -->
+
+<div class="publications">
+
+## _Publications_
+
+{% bibliography --query @*[keywords=publication] %}
+
+## _Working Papers (Drafts Available Upon Request)_
+
+{% bibliography --query @*[keywords=working] %}
+
+</div>
