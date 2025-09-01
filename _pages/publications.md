@@ -11,10 +11,10 @@ nav_order: 2
 
 <div class="publications">
 
-## Publications
+_Publications_
 {% bibliography --query @*[keywords=publication] %}
 
-## Working Papers
+_Working Papers (Drafts Available Upon Request)_
 {% bibliography --query @*[keywords=working] %}
 
 </div>
