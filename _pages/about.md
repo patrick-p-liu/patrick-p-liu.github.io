@@ -37,12 +37,16 @@ My work is featured in the _American Political Science Review_ and has been supp
 
 <div class="publications">
 
-## _Publications_
+## Publications
 
 {% bibliography --query @*[keywords=publication] %}
 
-## _Working Papers (Drafts Available Upon Request)_
+## Working Papers (Drafts Available Upon Request)
 
 {% bibliography --query @*[keywords=working] %}
+
+## Ongoing Projects
+
+{% bibliography --query @*[keywords=ongoing] %}
 
 </div>
