@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /Research/
-title: Research
-description: published papers and ongoing work by categories in reversed chronological order. 
+permalink: /research/
+title: research
+description: # published papers and ongoing work by categories in reversed chronological order. 
 nav: true
 nav_order: 2
 ---
