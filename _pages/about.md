@@ -33,24 +33,23 @@ Much of my work uses tailored experimental designs to assess how canonical theor
 
 My work is featured in the _American Political Science Review_ and has been supported by the Civic Health and Institutions Project, Columbia's Office of the Provost, and the Columbia Experimental Laboratory for Social Sciences.
 
-<!-- _pages/publications.md -->
-
-<div class="publications">
-
 ## Publications
 
+<!-- _pages/publications.md -->
 <div class="publications">
 {% bibliography --query @*[keywords=publication] %}
 </div>
 
 ## Working Papers (Drafts Available Upon Request)
 
+<!-- _pages/publications.md -->
 <div class="publications">
 {% bibliography --query @*[keywords=working] %}
 </div>
 
 ## Ongoing Projects
 
+<!-- _pages/publications.md -->
 <div class="publications">
 {% bibliography --query @*[keywords=ongoing] %}
 </div>
