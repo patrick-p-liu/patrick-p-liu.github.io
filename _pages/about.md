@@ -9,10 +9,10 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p style="font-size:18px; font-family:Roboto">PhD Candidate</p>
-    <p style="font-size:18px; font-family:Roboto">Department of Political Science</p>
-    <p style="font-size:18px; font-family:Roboto"><a href='https://polisci.columbia.edu/'>Columbia University</a></p>
-    <p style="font-size:18px; font-family:Roboto"><a href='mailto:ppl2115@columbia.edu'>ppl2115@columbia.edu</a></p>
+    <p style="font-size:16px; font-family:Roboto">PhD Candidate</p>
+    <p style="font-size:16px; font-family:Roboto">Department of Political Science</p>
+    <p style="font-size:16px; font-family:Roboto"><a href='https://polisci.columbia.edu/'>Columbia University</a></p>
+    <p style="font-size:16px; font-family:Roboto"><a href='mailto:ppl2115@columbia.edu'>ppl2115@columbia.edu</a></p>
 
 selected_papers: # includes a list of papers marked as "selected={true}"
 social: # includes social icons at the bottom of the page
