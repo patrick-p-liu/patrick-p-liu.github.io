@@ -161,10 +161,10 @@
       {% capture entrytype %}{% endcapture %}
     {% endif %}
     {% if entry.month %}
-      {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
+      {% capture entrymonth %}{{ entry.month | capitalize }}{% endcapture %}
     {% endif %}
     {% if entry.year %}
-      {% capture entryyear %}{{ " " }}{{ entry.year }}{% endcapture %}
+      {% capture entryyear %}{{ entry.year }}{% endcapture %}
     {% endif %}
     {% if entry.location %}
       {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
@@ -180,7 +180,7 @@
     {% capture periodical %}
       {{ entrytype }}
       {% if entry.month and entry.year %}
-      , {{ entrymonth }}{{ entryyear }}
+        , {{ entrymonth }} {{ entryyear }}
       {% elsif entry.year %}
         {{ entryyear }}
       {% endif %}
