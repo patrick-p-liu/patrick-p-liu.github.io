@@ -19,6 +19,11 @@ strong {
   color: var(--global-text-color);
 }
 
+h4 {
+  margin-top: 3rem; /* space above #### */ 
+  margin-bottom: 1rem; /* space below #### */
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -193,7 +198,7 @@ ul.task-list input[type="checkbox"] {
 // Profile
 
 .profile {
-  width: 100%;
+  width: 8%;
 
   .more-info {
     margin-bottom: 5px;
