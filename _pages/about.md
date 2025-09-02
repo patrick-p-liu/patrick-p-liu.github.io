@@ -9,10 +9,10 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p style="font-size:25px; font-family:Roboto">PhD Candidate</p>
-    <p style="font-size:25px; font-family:Roboto">Department of Political Science</p>
-    <p style="font-size:25px; font-family:Roboto"><a href='https://polisci.columbia.edu/'>Columbia University</a></p>
-    <p style="font-size:25px; font-family:Roboto"><a href='mailto:ppl2115@columbia.edu'>ppl2115@columbia.edu</a></p>
+    <p style="font-size:20px; font-family:Roboto">PhD Candidate</p>
+    <p style="font-size:20px; font-family:Roboto">Department of Political Science</p>
+    <p style="font-size:20px; font-family:Roboto"><a href='https://polisci.columbia.edu/'>Columbia University</a></p>
+    <p style="font-size:20px; font-family:Roboto"><a href='mailto:ppl2115@columbia.edu'>ppl2115@columbia.edu</a></p>
 
 selected_papers: # includes a list of papers marked as "selected={true}"
 social: # includes social icons at the bottom of the page
@@ -34,19 +34,19 @@ Much of my work uses tailored experimental designs to assess how canonical theor
 
 My work is featured in the _American Political Science Review_ and has been supported by the Civic Health and Institutions Project, Columbia's Office of the Provost, and the Columbia Experimental Laboratory for Social Sciences.
 
-##### Publications
+#### Publications
 
 <div class="publications">
 {% bibliography --query @*[keywords=publication] %}
 </div>
 
-##### Working Papers (Drafts Available Upon Request)
+#### Working Papers (Drafts Available Upon Request)
 
 <div class="publications">
 {% bibliography --query @*[keywords=working] %}
 </div>
 
-##### Ongoing Projects
+#### Ongoing Projects
 
 <div class="publications">
 {% bibliography --query @*[keywords=ongoing] %}
