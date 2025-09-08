@@ -30,7 +30,7 @@ latest_posts:
 
 Hi! I am a PhD Candidate in Political Science at Columbia University. My research aims to disentangle the conditions under which political attitudes undergo lasting change.
 
-Much of my work uses tailored experimental designs to reevaluate canonical theories in political psychology—from motivated reasoning to the classic model of attitudes as weighted sums of beliefs. My research interests extend to questions about social influence, partisan identity, and policy feedback.
+Much of my work uses tailored experimental designs to reevaluate canonical theories in political psychology, from motivated reasoning to the classic model of attitudes as weighted sums of beliefs. My research interests extend to questions about social influence, partisan identity, and policy feedback.
 
 [//]: # —hold up when we account for heterogeneity in the issues to which ordinary people assign importance or in the kinds of information they treat as relevant to their deeply held views. I also examine how social pressure constrains political conversation in underappreciated contexts such as intra-party dyads. 
 
