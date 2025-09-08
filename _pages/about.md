@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I am a PhD Candidate in Political Science at Columbia University. My research aims to disentangle the conditions under which political attitudes undergo lasting change.
+Hi! I am a PhD candidate in political science at Columbia University. My research aims to disentangle the conditions under which political attitudes undergo lasting change.
 
 Much of my work uses tailored experimental designs to reevaluate canonical theories in political psychology, from motivated reasoning to the classic model of attitudes as weighted sums of beliefs. My research interests extend to questions about social influence, partisan identity, and policy feedback.
 
