@@ -15,7 +15,7 @@ _Publications_
 
 {% bibliography --query @*[keywords=publication] %}
 
-_Working Papers (Drafts Available Upon Request)_
+_Working Papers_
 
 {% bibliography --query @*[keywords=working] %}
 
