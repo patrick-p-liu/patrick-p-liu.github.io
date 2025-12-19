@@ -7,10 +7,9 @@ subtitle:
 profile:
   align: rught
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p style="font-size:16px; font-family:Roboto">PhD Candidate</p>
-    <p style="font-size:16px; font-family:Roboto">Political Science</p>
     <p style="font-size:16px; font-family:Roboto"><a href='https://polisci.columbia.edu/'>Columbia University</a></p>
     <p style="font-size:16px; font-family:Roboto"><a href='mailto:ppl2115@columbia.edu'>ppl2115@columbia.edu</a></p>
 
