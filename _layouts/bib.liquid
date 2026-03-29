@@ -47,10 +47,9 @@
           {%- endif -%}
         {%- endunless -%}
       {%- endfor -%}
-      {%- if coauthor_count > 0 -%}
+      {%- if coauthor_count > 0 %}
         {%- assign coauthor_list = coauthor_names | split: '|||' -%}
-        (with
-        {%- for name in coauthor_list -%}
+        (with {% for name in coauthor_list -%}
           {%- if forloop.length > 1 -%}
             {%- if forloop.last -%}
               {%- if forloop.length > 2 -%}, and {% else %} and {% endif -%}
