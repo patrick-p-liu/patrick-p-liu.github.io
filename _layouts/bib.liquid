@@ -49,13 +49,13 @@
       {%- endfor -%}
       {%- if coauthor_count > 0 -%}
         {%- assign coauthor_list = coauthor_names | split: '|||' -%}
-        &nbsp;(with&nbsp;
+        (with
         {%- for name in coauthor_list -%}
           {%- if forloop.length > 1 -%}
             {%- if forloop.last -%}
               {%- if forloop.length > 2 -%}, and {% else %} and {% endif -%}
             {%- elsif forloop.first == false -%}
-              ,&nbsp;
+              ,
             {%- endif -%}
           {%- endif -%}
           {{ name -}}
