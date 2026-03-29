@@ -283,8 +283,16 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
-  .publications ol.bibliography li .abstract-details {
-    padding-left: 0;
+  .publications ol.bibliography li {
+    padding-left: 0.25rem;
+
+    .paper-details {
+      padding-left: 0.5rem;
+    }
+
+    .abstract-details {
+      padding-left: 0;
+    }
   }
 }
 
@@ -904,7 +912,7 @@ footer.sticky-bottom {
       // Native details/summary abstract dropdown
       .abstract-details {
         margin-top: 0.25rem;
-        padding-left: 1.15rem;
+        padding-left: 0.75rem;
 
         summary {
           cursor: pointer;
