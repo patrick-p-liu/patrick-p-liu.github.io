@@ -282,6 +282,10 @@ ul.task-list input[type="checkbox"] {
       width: 100%;
     }
   }
+
+  .publications ol.bibliography li .abstract-details {
+    padding-left: 0;
+  }
 }
 
 @media (min-width: 576px) {
@@ -906,21 +910,44 @@ footer.sticky-bottom {
           cursor: pointer;
           font-size: 0.875rem;
           color: var(--global-text-color);
+          list-style: none;
+          display: flex;
+          align-items: baseline;
 
-          &::marker {
-            content: '\25B6\00a0';
-            font-size: 0.65rem;
+          &::-webkit-details-marker {
+            display: none;
+          }
+
+          &::before {
+            content: '';
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border-top: 4px solid transparent;
+            border-bottom: 4px solid transparent;
+            border-left: 6px solid var(--global-text-color);
+            margin-right: 0.4rem;
+            flex-shrink: 0;
           }
 
           &:hover {
             color: var(--global-theme-color);
+
+            &::before {
+              border-left-color: var(--global-theme-color);
+            }
           }
         }
 
-        &[open] summary {
-          &::marker {
-            content: '\25BC\00a0';
-          }
+        &[open] summary::before {
+          border-left: 4px solid transparent;
+          border-right: 4px solid transparent;
+          border-top: 6px solid var(--global-text-color);
+          border-bottom: none;
+        }
+
+        &[open] summary:hover::before {
+          border-top-color: var(--global-theme-color);
         }
 
         p {
