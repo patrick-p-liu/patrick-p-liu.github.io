@@ -32,7 +32,7 @@ Welcome!
 
 I am a PhD candidate in political science at Columbia University. My research aims to disentangle the conditions under which political attitudes undergo lasting change.
 
-My current projects center on (i) a synthesis of theoretical explanations and empirical evidence for decay in belief and attitude change, and (ii) understanding the feedback effects of student loan forgiveness on recipients' attitudes and behavior during the 2024 election. My published papers explore how novel experimental designs—using large language models to tailor stimuli and outcomes on-the-fly—can help reevaluate canonical theories in public opinion and political psychology. My research interests extend to questions about social influence, democratic backsliding, and policy feedback.
+My current projects center on (i) a synthesis of theoretical explanations and empirical evidence for decay in belief and attitude change, and (ii) understanding the electoral returns to Biden-era student loan forgiveness (or lack thereof) via feedback effects on recipients' political attitudes and behavior. My published papers explore how novel experimental designs—using large language models to tailor stimuli and outcomes on-the-fly—can help reevaluate canonical theories in public opinion and political psychology. My research interests extend to questions about social influence, democratic backsliding, and policy feedback.
 
 [//]: # using large language models to tailor stimuli and outcomes on-the-fly. from motivated reasoning to the classic model of attitudes as weighted sums of beliefs. 
 
@@ -47,13 +47,13 @@ My work is featured in the _American Political Science Review_ and has been supp
 {% bibliography --query @*[keywords=publication] %}
 </div>
 
-#### Working Papers
+#### Under Review
 
 <div class="publications">
 {% bibliography --query @*[keywords=working] %}
 </div>
 
-#### Ongoing Projects
+#### Works in Progress
 
 <div class="publications">
 {% bibliography --query @*[keywords=ongoing] %}

@@ -270,6 +270,18 @@ ul.task-list input[type="checkbox"] {
   .about-header {
     flex-direction: column;
   }
+
+  .profile.profile-side {
+    .profile-image-wrapper {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 240 / 265;
+    }
+
+    .more-info {
+      width: 100%;
+    }
+  }
 }
 
 @media (min-width: 576px) {
@@ -888,13 +900,17 @@ footer.sticky-bottom {
       // Native details/summary abstract dropdown
       .abstract-details {
         margin-top: 0.25rem;
-        padding-left: 1rem;
+        padding-left: 1.15rem;
 
         summary {
           cursor: pointer;
           font-size: 0.875rem;
           color: var(--global-text-color);
-          list-style: disclosure-closed;
+
+          &::marker {
+            content: '\25B6\00a0';
+            font-size: 0.65rem;
+          }
 
           &:hover {
             color: var(--global-theme-color);
@@ -902,7 +918,9 @@ footer.sticky-bottom {
         }
 
         &[open] summary {
-          list-style: disclosure-open;
+          &::marker {
+            content: '\25BC\00a0';
+          }
         }
 
         p {
