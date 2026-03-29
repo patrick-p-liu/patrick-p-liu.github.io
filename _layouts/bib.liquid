@@ -11,7 +11,7 @@
         <a href="{{ entry.url }}" class="title-link">{{ entry.title }}</a>
       {%- else -%}
         <span class="title-text">{{ entry.title }}</span>
-      {%- endif -%}
+      {%- endif %}
       {%- assign coauthor_names = '' -%}
       {%- assign coauthor_count = 0 -%}
       {%- for author in entry.author_array -%}
