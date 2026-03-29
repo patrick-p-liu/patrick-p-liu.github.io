@@ -38,7 +38,7 @@ My current projects center on (i) a synthesis of theoretical explanations and em
 
 [//]: # —hold up when we account for heterogeneity in the issues to which ordinary people assign importance or in the kinds of information they treat as relevant to their deeply held views. I also examine how social pressure constrains political conversation in underappreciated contexts such as intra-party dyads. 
 
-My work is featured in the _American Political Science Review_ and has been supported by the Rapoport Family Foundation, the Columbia Center for Political Economy, the Civic Health and Institutions Project, the Columbia Experimental Laboratory for Social Sciences, and the Office of the Provost.
+My work is featured in the _American Political Science Review_ and has been supported by the Rapoport Family Foundation, the Columbia Center for Political Economy, the Civic Health and Institutions Project, the Institute for Humane Studies, the Columbia Experimental Laboratory for Social Sciences, and the Office of the Provost.
 
 
 #### Publications
