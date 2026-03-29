@@ -283,15 +283,19 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
-  .publications ol.bibliography li {
-    padding-left: 0.25rem;
+  .publications ol.bibliography {
+    padding-left: 1.25rem;
 
-    .paper-details {
-      padding-left: 0.5rem;
-    }
+    li {
+      padding-left: 0.15rem;
 
-    .abstract-details {
-      padding-left: 0;
+      .paper-details {
+        padding-left: 0.5rem;
+      }
+
+      .abstract-details {
+        padding-left: 0;
+      }
     }
   }
 }
