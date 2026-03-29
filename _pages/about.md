@@ -12,7 +12,8 @@ profile:
     <p style="font-size:16px; font-family:Roboto">PhD Candidate</p>
     <p style="font-size:16px; font-family:Roboto">Department of Political Science</p>
     <p style="font-size:16px; font-family:Roboto"><a href='https://polisci.columbia.edu/'>Columbia University</a></p>
-    <p style="font-size:16px; font-family:Roboto; margin-top:0.5rem"><a href='mailto:ppl2115@columbia.edu'>ppl2115@columbia.edu</a></p>
+    <p style="font-size:16px; font-family:Roboto; margin-top:0.5rem"><a href='mailto:ppl2115@columbia.edu'><i class="ti ti-mail" style="vertical-align: middle; margin-right: 0.25rem"></i>ppl2115@columbia.edu</a></p>
+    <p style="margin-top:0.5rem"><a href="assets/pdf/Liu_Vitae.pdf" style="font-size:16px; font-family:Roboto"><i class="ai ai-cv ai-1x" style="vertical-align: middle; margin-right: 0.25rem"></i>Curriculum Vitae</a></p>
 
 selected_papers: # includes a list of papers marked as "selected={true}"
 social: # includes social icons at the bottom of the page
