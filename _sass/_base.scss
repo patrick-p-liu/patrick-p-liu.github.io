@@ -220,6 +220,58 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
+// Side-by-side about header layout
+.about-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-text {
+  flex: 1;
+
+  .post-title {
+    margin-top: 0;
+  }
+}
+
+// Side profile (used in about-header)
+.profile.profile-side {
+  float: none !important;
+  flex-shrink: 0;
+
+  .profile-image-wrapper {
+    width: 235px;
+    height: 265px;
+    overflow: hidden;
+    border-radius: 0.25rem;
+    margin-bottom: 0.85rem;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 10%;
+      transform: scale(1.15);
+    }
+  }
+
+  .more-info {
+    width: 240px;
+
+    p {
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .about-header {
+    flex-direction: column;
+  }
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 20%;
@@ -229,6 +281,10 @@ ul.task-list input[type="checkbox"] {
         display: block;
       }
     }
+  }
+
+  .profile.profile-side {
+    width: auto;
   }
 }
 
@@ -706,7 +762,7 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 0.5rem;
 
   h1 {
     color: var(--global-theme-color);
@@ -733,12 +789,39 @@ footer.sticky-bottom {
   }
 
   ol.bibliography {
-    list-style: none;
-    padding: 0;
+    list-style-type: decimal;
+    padding-left: 1.5rem;
     margin-top: 0;
 
     li {
       margin-bottom: 1rem;
+      padding-left: 0.5rem;
+
+      .title-line {
+        .title-link {
+          font-weight: bolder;
+          color: var(--global-theme-color);
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+        .title-text {
+          font-weight: bolder;
+        }
+      }
+
+      .paper-details {
+        padding-left: 1rem;
+        margin-top: 0.15rem;
+      }
+
+      .dissertation-note {
+        font-size: 0.875rem;
+        margin-top: 0.15rem;
+      }
 
       .preview {
       }
@@ -764,37 +847,6 @@ footer.sticky-bottom {
         .award {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
-        }
-      }
-
-      .title {
-        font-weight: bolder;
-      }
-
-      .author {
-        a {
-          border-bottom: 1px dashed var(--global-theme-color);
-
-          &:hover {
-            border-bottom-style: solid;
-            text-decoration: none;
-          }
-        }
-
-        > em {
-          border-bottom: 1px solid;
-          font-style: normal;
-        }
-
-        > span.more-authors {
-          color: var(--global-text-color-light);
-          border-bottom: 1px dashed var(--global-text-color-light);
-          cursor: pointer;
-
-          &:hover {
-            color: var(--global-text-color);
-            border-bottom: 1px dashed var(--global-text-color);
-          }
         }
       }
 
@@ -833,15 +885,39 @@ footer.sticky-bottom {
         }
       }
 
+      // Native details/summary abstract dropdown
+      .abstract-details {
+        margin-top: 0.25rem;
+        padding-left: 1rem;
+
+        summary {
+          cursor: pointer;
+          font-size: 0.875rem;
+          color: var(--global-text-color);
+          list-style: disclosure-closed;
+
+          &:hover {
+            color: var(--global-theme-color);
+          }
+        }
+
+        &[open] summary {
+          list-style: disclosure-open;
+        }
+
+        p {
+          font-size: 0.875rem;
+          line-height: 1.4em;
+          text-align: justify;
+          margin: 0.5rem 0;
+        }
+      }
+
       .hidden {
         font-size: 0.875rem;
         max-height: 0px;
         overflow: hidden;
         text-align: justify;
-        transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
         transition: all 0.15s ease;
 
         p {
@@ -858,10 +934,6 @@ footer.sticky-bottom {
 
       .hidden.open {
         max-height: 100em;
-        transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
         transition: all 0.15s ease;
       }
 
