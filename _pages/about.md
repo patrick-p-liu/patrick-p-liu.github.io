@@ -33,11 +33,7 @@ Welcome!
 
 I am a PhD candidate in political science at Columbia University. My work aims to disentangle the conditions under which political attitudes undergo lasting change.
 
-My current research centers around (i) a synthesis of theoretical explanations and empirical evidence for decay in belief and attitude change, and (ii) understanding if and when personal policy experiences shape party evaluations and electoral behavior. This includes evaluating the policy feedback effects of Biden-era student loan forgiveness and its impact on borrowers' 2024 election behavior. My published papers explore how novel experimental designs—using large language models to tailor stimuli and outcomes on-the-fly—can help reevaluate canonical theories in public opinion and political psychology. Other research interests include social influence, partisan identity, and voter responses to democratic backsliding.
-
-[//]: # using large language models to tailor stimuli and outcomes on-the-fly. from motivated reasoning to the classic model of attitudes as weighted sums of beliefs. 
-
-[//]: # —hold up when we account for heterogeneity in the issues to which ordinary people assign importance or in the kinds of information they treat as relevant to their deeply held views. I also examine how social pressure constrains political conversation in underappreciated contexts such as intra-party dyads. 
+My current research centers on (i) a synthesis of theoretical explanations and empirical evidence for decay in belief and attitude change, and (ii) understanding if and when personal policy experiences shape party evaluations and electoral behavior. This includes evaluating the policy feedback effects of Biden-era student loan forgiveness and its impact on borrowers' 2024 election behavior. My published papers explore how novel experimental designs—using large language models to tailor stimuli and outcomes on-the-fly—can help reevaluate canonical theories in public opinion and political psychology. Other research interests include social influence, partisan identity, and voter responses to democratic backsliding.
 
 My work is featured in the _American Political Science Review_ and has been supported by the Rapoport Family Foundation, the Columbia Center for Political Economy, the Civic Health and Institutions Project, the Institute for Humane Studies, the Columbia Experimental Laboratory for Social Sciences, and the Office of the Provost.
 
