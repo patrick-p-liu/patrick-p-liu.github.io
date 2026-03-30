@@ -26,6 +26,7 @@ layout: default
               {%
                 include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
                 cache_bust=true
+                avoid_scaling=true
               %}
             </div>
             {% if page.profile.more_info %}
