@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: prof_web_resized.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p style="font-size:16px; font-family:Roboto">PhD Candidate</p>
