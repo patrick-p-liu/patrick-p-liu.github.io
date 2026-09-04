@@ -224,7 +224,7 @@ ul.task-list input[type="checkbox"] {
 .about-header {
   display: flex;
   align-items: flex-start;
-  gap: 3.5rem;
+  gap: 4.375rem;
   margin-bottom: 1rem;
 }
 
@@ -242,8 +242,9 @@ ul.task-list input[type="checkbox"] {
   flex-shrink: 0;
 
   .profile-image-wrapper {
-    width: 235px;
-    height: 265px;
+    width: 302px;
+    height: auto;
+    aspect-ratio: 2860 / 2086;
     overflow: hidden;
     border-radius: 0.25rem;
     margin-bottom: 0.85rem;
@@ -254,8 +255,7 @@ ul.task-list input[type="checkbox"] {
       width: 100% !important;
       height: 100% !important;
       object-fit: cover;
-      object-position: 45% 44%;
-      transform: scale(1.0);
+      object-position: center center;
       margin: 0;
       padding: 0;
     }
@@ -266,7 +266,7 @@ ul.task-list input[type="checkbox"] {
   }
 
   .more-info {
-    width: 240px;
+    width: 307px;
 
     p {
       display: block;
@@ -327,6 +327,10 @@ ul.task-list input[type="checkbox"] {
 
   .profile.profile-side {
     width: auto;
+  }
+
+  .about-text {
+    padding-top: 0.875rem;
   }
 }
 

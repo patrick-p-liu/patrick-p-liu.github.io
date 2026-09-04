@@ -11,3 +11,5 @@ assets/libs/
 node_modules/
 vendor
 .idea
+# Private CV source; only the exported PDF is published
+assets/pdf/Liu_Vitae.docx

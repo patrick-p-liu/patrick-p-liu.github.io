@@ -29,8 +29,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome! 
-
 I am a PhD candidate in political science at Columbia University. My work aims to disentangle the conditions under which political attitudes undergo lasting change.
 
 My current research centers on (i) a synthesis of theoretical explanations and empirical evidence for decay in belief and attitude change, and (ii) understanding if and when personal policy experiences shape party evaluations and electoral behavior. This includes evaluating the policy feedback effects of Biden-era student loan forgiveness and its impact on borrowers' 2024 election behavior. My published papers use novel experimental designs—leveraging large language models to tailor stimuli and outcomes on-the-fly—to reevaluate canonical theories in public opinion and political psychology and to assess the persuasive returns from personalization. Other research interests include social influence, partisan identity, and voter responses to democratic backsliding.
