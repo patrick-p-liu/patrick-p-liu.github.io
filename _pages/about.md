@@ -36,10 +36,16 @@ My current research centers on (i) a synthesis of theoretical explanations and e
 My work is featured in the _American Political Science Review_ and has been supported by the Rapoport Family Foundation, the Columbia Center for Political Economy, the Civic Health and Institutions Project, the Institute for Humane Studies, the Columbia Experimental Laboratory for Social Sciences, and the Office of the Provost.
 
 
-#### Publications
+#### Peer-Reviewed Articles
 
 <div class="publications">
 {% bibliography --query @*[keywords=publication] %}
+</div>
+
+#### Book
+
+<div class="publications">
+{% bibliography --query @*[keywords=book] %}
 </div>
 
 #### Under Review
