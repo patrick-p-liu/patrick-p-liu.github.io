@@ -9,6 +9,13 @@
         <a href="https://doi.org/{{ entry.doi }}" class="title-link">{{ entry.title }}</a>
       {%- elsif entry.url -%}
         <a href="{{ entry.url }}" class="title-link">{{ entry.title }}</a>
+      {%- elsif entry.pdf -%}
+        {%- assign title_links_pdf = true -%}
+        {%- if entry.pdf contains '://' -%}
+          <a href="{{ entry.pdf }}" class="title-link">{{ entry.title }}</a>
+        {%- else -%}
+          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="title-link">{{ entry.title }}</a>
+        {%- endif -%}
       {%- else -%}
         <span class="title-text">{{ entry.title }}</span>
       {%- endif %}
@@ -48,8 +55,8 @@
         {%- endunless -%}
       {%- endfor -%}
       {%- if coauthor_count > 0 %}
-        {%- assign coauthor_list = coauthor_names | split: '|||' -%}
-        <span class="coauthors"> (with {% for name in coauthor_list -%}
+        {%- assign coauthor_list = coauthor_names | split: '|||' %}
+        <span class="coauthors">(with {% for name in coauthor_list -%}
           {%- if forloop.length > 1 -%}
             {%- if forloop.last -%}
               {%- if forloop.length > 2 -%}, and {% else %} and {% endif -%}
@@ -137,7 +144,7 @@
             <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
           {% endif %}
         {% endif %}
-        {% if entry.pdf %}
+        {% if entry.pdf and title_links_pdf != true %}
           {% if entry.pdf contains '://' %}
             <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
           {% else %}

@@ -857,6 +857,12 @@ footer.sticky-bottom {
         .title-text {
           font-weight: bolder;
         }
+
+        // Keep "(with ...)" together: it stays on the title's line when it
+        // fits, otherwise the whole span moves to a new line
+        .coauthors {
+          display: inline-block;
+        }
       }
 
       .paper-details {

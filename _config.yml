@@ -244,6 +244,10 @@ scholar:
   details_link: Details
 
   query: "@*"
+  # Sort newest first; status strings such as "Forthcoming" or
+  # "Conditionally Accepted" sort above numeric years, so they lead each list
+  sort_by: year
+  order: descending
   group_by: none
   group_order: ascending
 
